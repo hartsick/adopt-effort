@@ -1,5 +1,6 @@
 body {
   margin: 40px;
+  padding-bottom: 50px;
 }
 
 #container {
@@ -9,29 +10,19 @@ body {
 
 .text {
   margin-left: 10px;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 
 h2 {
   margin-top: 1.5em;
 }
 
+h2, h3, h4 {
+  line-height: 1.3em;
+}
+
 .description{
   margin-top: 2em;
-
-  min-height: 220px;
-
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-
-  -webkit-column-gap: 40px;
-  -moz-column-gap: 40px;
-  column-gap: 40px;
-
-  -webkit-column-width: 400px;
-  -moz-column-width: 400px;
-  column-width: 400px;
 }
 
 .contact {
@@ -43,6 +34,8 @@ h2 {
 }
 
 .links a {
+  white-space: nowrap;
+  line-height: 3em;
   font-size: 1.3em;
   margin-right: 20px;
   padding: 10px;
@@ -73,4 +66,22 @@ p {
 
 .results {
   width: 100%;
+}
+
+@media only screen and (min-width: 960px){
+  .description {
+    min-height: 220px;
+
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+
+    -webkit-column-width: 400px;
+    -moz-column-width: 400px;
+    column-width: 400px;
+  }
 }
