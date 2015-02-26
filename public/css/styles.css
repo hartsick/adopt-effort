@@ -1,6 +1,5 @@
 body {
   margin: 40px;
-  padding-bottom: 50px;
 }
 
 #container {
@@ -67,6 +66,34 @@ p {
 .results {
   width: 100%;
 }
+
+#footer {
+  color: darkgray;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  margin-top: 40px;
+  padding-right: 30px;
+  text-align: right;
+}
+
+#footer a{
+  color: gray;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 @media only screen and (min-width: 960px){
   .description {

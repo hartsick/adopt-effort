@@ -1,13 +1,18 @@
+!!! 5
+
 %html
   %head
     %title Adopt an Effort!
     %link(rel="stylesheet" type="text/css" href="/css/normalize.css")
     %link(rel="stylesheet" type="text/css" href="/css/styles.css")
     %meta(name="viewport" content="width=device-width")
+    / whipped up by christa / @_hartsick / http://chartsock.com
+    / available on github at https://github.com/hartsick/adopt-effort
+    / please fork, especially in the service of doggie adoption!
 
   %body
 
-    #container
+    #container.clearfix
 
       .text
 
@@ -32,3 +37,8 @@
             %a(title="Adoption Application" href="http://fastfriends.org/form/application") Adoption Application
 
       = yield
+
+    #footer
+      %p
+        Check me out on
+        %a{href: 'https://github.com/hartsick/adopt-effort'} Github
