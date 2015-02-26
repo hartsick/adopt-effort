@@ -1,17 +1,33 @@
 %html
   %head
     %title Adopt an Effort!
+    %link(rel="stylesheet" type="text/css" href="/css/normalize.css")
     %link(rel="stylesheet" type="text/css" href="/css/styles.css")
 
   %body
 
-    %h1 Adopt an Effort!
+    #container
 
-    = yield
+      .text
 
-    .description
-      %p Hi. My name is Effort, and I'm a 2 year 9 month old male greyhound looking for a home!
-      %p Up until this last October, I lived at the Caliente racetrack outside of Tijuana, but I've settled into home life just fine. I found a couch, and it was love at first sight!
-      %p I do well with other dogs, even the small furry white ones, but can't be trusted around cats or other small, furry animals.
-      %p Above are photos of me taken by my foster family, who are leaving from LA at the end of March.
-      %p Interested in learning more about me, the adoption process, or maybe wanna meet? Check out my profile or view more info on how to adopt on Fast Friend Greyhound Adoption's website!
+        %h1 Adopt an Effort!
+
+        %h3 Hi. My name is Effort, and I'm a 2 year 10 month old male greyhound looking for a home!
+
+        .description
+          %p Up until this last October, I lived at the Caliente racetrack outside of Tijuana, but thanks to Fast Friends I've settled into home life just fine. I found a couch, and it was love at first sight!
+
+          %p I do well with other dogs, even the small white ones, but can't be trusted around cats or other small, fuzzy animals. I love walks, and will fit myself into even the tiniest space if it means getting to cuddle with my family. I think I like to play, but I'm still learning what that means, and I'll do anything for a treat.
+
+          %p The photos of me below were taken by my foster family, who are leaving from LA in March and would love to find a forever home for me before they leave.
+
+        .contact
+          %h3 Interested in learning more about me, the adoption process, or maybe wanna meet?
+          %h3 Check out my profile and adoption info at the links below!
+
+          .links
+            %a(title="Effort's Profile" href="http://fastfriends.org/dog/effort") My Profile
+            %a(title="Adoption Info" href="http://fastfriends.org/content/process") Adoption Information
+            %a(title="Adoption Application" href="http://fastfriends.org/form/application") Adoption Application
+
+      = yield
