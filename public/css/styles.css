@@ -1,0 +1,10 @@
+.picture {
+  height: 320px;
+  width: 320px;
+  float: left;
+  margin: 10px;
+}
+
+.picture img {
+  max-width: 100%;
+}
