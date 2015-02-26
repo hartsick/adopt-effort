@@ -1,5 +1,5 @@
 body {
-  margin: 40px;
+  margin: 30px;
 }
 
 #container {
@@ -57,6 +57,7 @@ p {
   width: 320px;
   float: left;
   margin: 10px;
+  max-width: 100%;
 }
 
 .picture img {
