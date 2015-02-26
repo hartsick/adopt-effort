@@ -13,6 +13,7 @@ get "/" do
   @grams = JSON.parse(response.body)['data']
 
   if @grams
+    @grams.sort!{|a, b| b['created_time'] <=> a['created_time'] }
     haml :success
   else
     haml :error
