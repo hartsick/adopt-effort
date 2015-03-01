@@ -98,7 +98,7 @@ p {
 
 @media only screen and (min-width: 960px){
   .description {
-    min-height: 220px;
+    min-height: 300px;
 
     -webkit-column-count: 2;
     -moz-column-count: 2;
