@@ -24,6 +24,12 @@ h2, h3, h4 {
   margin-top: 2em;
 }
 
+.description a {
+  white-space: nowrap;
+  font-weight: bold;
+  color: black;
+}
+
 .contact {
   margin-bottom: 3em;
 }
